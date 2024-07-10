@@ -8,7 +8,7 @@ let package = Package(
     targets: [.target(name: "Obfuscator",
                       path: ".",
                       exclude: ["Obfuscator.podspec", "./Example/ExampleTests/"],
-                      resources: [.copy("./Example"),
+                      resources: [
                                   .copy("README.md"),
                                   .copy("LICENSE")],
                       publicHeadersPath: "include"
