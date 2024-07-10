@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.6
 
 import PackageDescription
 
@@ -8,6 +8,7 @@ let package = Package(
     targets: [
         .target(
             name: "Obfuscator",
-            dependencies: []
+            dependencies: [],
+            path: "Sources/Obfuscator"
         )]
 )
